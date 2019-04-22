@@ -43,21 +43,6 @@ app.get("/beers", async (req, res) => {
   res.send(finalData);
 });
 
-// app.get("/beer/:id", async (req, res) => {
-//   const id = req.params.id;
-//   try {
-//     beer = await axios.get(
-//       `http://api.brewerydb.com/v2/beer/${id}/?key=${
-//         process.env.BREWERY_API_KEY
-//       }`
-//     );
-//   } catch (e) {
-//     console.log(e);
-//   }
-//   console.log("Done");
-//   res.send(beer.data);
-// });
-
 app.listen(port, err => {
   if (err) {
     console.log(err);
