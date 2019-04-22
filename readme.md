@@ -1,6 +1,6 @@
 ## Backend API to serve React application to show Beer List and Beers.
 ## *IMPORTANT*
-### In order to make this API work, yoy need to signup on https://www.brewerydb.com and get the API keys needed.
+### In order to make this API work, you need to signup on https://www.brewerydb.com and get the API keys needed.
 __
 ### Then, you have to create a file in the root directory and name it [.env] and in there save the API keys as below.
 ```js
