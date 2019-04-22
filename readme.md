@@ -14,3 +14,7 @@ cd Brewery_Proxy_Backend
 node app.js
 ```
 
+### The frontend application to demonstrate the API can be cloned from the below git
+```sh
+git clone https://github.com/GeorgeFourikis/Brewery.git
+```
