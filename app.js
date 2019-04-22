@@ -16,7 +16,6 @@ app.get("/", (req, res) => {
 app.get("/beers", async (req, res) => {
   if (req.query) {
     page = req.query.page;
-    console.log(page);
   }
   let beers;
   let processed;
